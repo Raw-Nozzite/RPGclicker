@@ -21,8 +21,8 @@ Buttons
 		on click:$gainAttackChance is random(0,1)
 		on click:$gainDefenseChance is random(0,1)
 		on click:anim icon wobble
-		on click: yield $gainAttackChance attack
-		on click: yield $gainDefenseChance defense
+		on click: yield ($gainAttackChance) attack
+		on click: yield ($gainDefenseChance) defense
 		class:bigButton hasFlares
 		icon class:shadowed
 		tooltip origin:bottom
