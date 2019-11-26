@@ -15,21 +15,12 @@ Layout
 	use default
 
 Buttons
-	*attackButton
-		name:Gain Attack
-		desc:Click this to gain attack points.
+	*trainButton
+		name:Train Yourself
+		desc:Click this to gain either attack points or defense points.
 		on click:anim icon wobble
-		on click:yield 1 attack
-		class:bigButton hasFlares
-		icon class:shadowed
-		tooltip origin:bottom
-		tooltip class:red
-		
-	*defenseButton
-		name:Gain Defense
-		desc:Click this to gain defense points.
-		on click:anim icon wobble
-		on click:yield 1 defense
+		chance = random(1,8)
+		on click: yield 1 attack or yield 1 defense
 		class:bigButton hasFlares
 		icon class:shadowed
 		tooltip origin:bottom
