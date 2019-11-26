@@ -15,8 +15,17 @@ Layout
 	use default
 	
 Buttons
-	*bunnyButton
-		name:Make a bunny
-		desc:Click this little bunny to get more bunnies!
+	*attackButton
+		name:Gain Attack
+		desc:Click this to gain attack points.
 		on click:anim icon wobble
-		icon:https://raw-nozzite.github.io/RPGclicker/Images/swords.jpg
+		on click:yield 1 attack
+		icon:https://raw-nozzite.github.io/RPGclicker/Images/Swords.jpg
+
+Resources
+    *attack|attack
+        name:Attack|Attack
+        desc:This is how many attack points you have.
+        icon:https://raw-nozzite.github.io/RPGclicker/Images/Swords.jpg
+        class:noBackground
+        show earned
