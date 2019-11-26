@@ -22,7 +22,6 @@ Buttons
 		desc:Click this to gain attack points.
 		on click:anim icon wobble
 		on click:yield 1 attack
-		icon:https://raw-nozzite.github.io/RPGclicker/Images/Swords.jpg
 		class:bigButton hasFlares
 		icon class:shadowed
 		tooltip origin:bottom
@@ -33,7 +32,6 @@ Buttons
 		desc:Click this to gain defense points.
 		on click:anim icon wobble
 		on click:yield 1 defense
-		icon:https://raw-nozzite.github.io/RPGclicker/Images/shield.jpg
 		class:bigButton hasFlares
 		icon class:shadowed
 		tooltip origin:bottom
@@ -43,16 +41,12 @@ Resources
     *attack|attack
         name:Attack|Attack
         desc:This is how many attack points you have.
-        icon:https://raw-nozzite.github.io/RPGclicker/Images/Swords.jpg
         class:noBackground
         show earned
 	
     *defense|defense
         name:Defense|Defense
         desc:This is how many defense point you have.
-        icon:https://raw-nozzite.github.io/RPGclicker/Images/shield.jpg
         class:noBackground
         hidden when 0
 	
-	
-
