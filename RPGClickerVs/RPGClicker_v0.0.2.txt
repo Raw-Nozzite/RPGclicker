@@ -21,6 +21,10 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 attack
 		icon:https://raw-nozzite.github.io/RPGclicker/Images/Swords.jpg
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
 		
 	*defenseButton
 		name:Gain Defense
@@ -28,6 +32,10 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 defense
 		icon:https://raw-nozzite.github.io/RPGclicker/Images/shield.jpg
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
 
 Resources
     *attack|attack
@@ -36,10 +44,6 @@ Resources
         icon:https://raw-nozzite.github.io/RPGclicker/Images/Swords.jpg
         class:noBackground
         show earned
-	class:bigButton hasFlares
-        icon class:shadowed
-        tooltip origin:bottom
-        tooltip class:red
 	
     *defense|defense
         name:Defense|Defense
