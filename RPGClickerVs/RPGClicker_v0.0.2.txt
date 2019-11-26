@@ -7,4 +7,4 @@ Let's make a game!
 	version:0.0.2
 
 Settings
-  background:Pictures/Wood.jpg
+  background:https://raw-nozzite.github.io/RPGclicker/Pictures/Wood.jpg
