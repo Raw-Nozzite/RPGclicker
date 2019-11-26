@@ -51,9 +51,6 @@ Resources
         icon:https://raw-nozzite.github.io/RPGclicker/Images/shield.jpg
         class:noBackground
         hidden when 0
-	class:bigButton hasFlares
-        icon class:shadowed
-        tooltip origin:bottom
-        tooltip class:red
+	
 	
 
