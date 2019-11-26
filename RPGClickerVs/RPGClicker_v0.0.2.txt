@@ -21,6 +21,13 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 attack
 		icon:https://raw-nozzite.github.io/RPGclicker/Images/Swords.jpg
+		
+	*defenseButton
+		name:Gain Defense
+		desc:Click this to gain defense points.
+		on click:anim icon wobble
+		on click:yield 1 defense
+		icon:https://raw-nozzite.github.io/RPGclicker/Images/shield.jpg
 
 Resources
     *attack|attack
