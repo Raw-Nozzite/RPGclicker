@@ -18,7 +18,7 @@ Buttons
 	*trainButton
 		name:Train Yourself
 		desc:Click this to gain either attack points or defense points.
-		$randomNum = chance(50%)
+		$randomNum=random(0,10
 		on click:anim icon wobble
 		on click: if (randomNum = 1) yield attack
 		on click: if (randomNum = 0) yield defense
