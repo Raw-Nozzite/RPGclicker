@@ -4,4 +4,4 @@ Let's make a game!
 	desc:An incremental rpg game.
 	created:26/11/2019
 	updated:26/11/2019
-	version:0.01
+	version:0.0.1
