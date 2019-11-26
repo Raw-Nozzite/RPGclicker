@@ -1,6 +1,6 @@
 Let's make a game!
 	name:RPG Clicker
-	author:Nozzles123
+	by:Nozzles123
 	desc:An incremental rpg game.
 	created:26/11/2019
 	updated:26/11/2019
