@@ -12,9 +12,7 @@ Settings
   building cost refund:50%
   
 Layout
-	*resourceButtons
-		contains:Buttons
-		header:These are the buttons
+	use default
 
 Buttons
 	*attackButton
