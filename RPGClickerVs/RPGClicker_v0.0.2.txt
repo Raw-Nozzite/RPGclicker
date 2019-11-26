@@ -12,8 +12,10 @@ Settings
   building cost refund:50%
   
 Layout
-	use default
-	
+	*resourceButtons
+		contains:Buttons
+		header:These are the buttons
+
 Buttons
 	*attackButton
 		name:Gain Attack
@@ -23,7 +25,7 @@ Buttons
 		icon:https://raw-nozzite.github.io/RPGclicker/Images/Swords.jpg
 		class:bigButton hasFlares
 		icon class:shadowed
-		tooltip origin:left
+		tooltip origin:bottom
 		tooltip class:red
 		
 	*defenseButton
@@ -34,7 +36,7 @@ Buttons
 		icon:https://raw-nozzite.github.io/RPGclicker/Images/shield.jpg
 		class:bigButton hasFlares
 		icon class:shadowed
-		tooltip origin:right
+		tooltip origin:bottom
 		tooltip class:red
 
 Resources
