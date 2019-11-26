@@ -19,7 +19,6 @@ Buttons
 		name:Train Yourself
 		desc:Click this to gain either attack points or defense points.
 		on click:anim icon wobble
-		chance = random(1,8)
 		on click: yield 1 attack or yield 1 defense
 		class:bigButton hasFlares
 		icon class:shadowed
