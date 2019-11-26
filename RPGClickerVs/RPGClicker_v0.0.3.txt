@@ -22,7 +22,7 @@ Buttons
 		on click:if (chance (50%)) yield 1 attack
 		on click:if (chance (50%)) yield 1 defense
 		class:bigButton hasFlares
-    icon:https://raw-nozzite.github.io/RPGclicker/Images/Training.jpg
+    		icon:https://raw-nozzite.github.io/RPGclicker/Images/Training.jpg
 		icon class:shadowed
 		tooltip origin:bottom
 		tooltip class:red
