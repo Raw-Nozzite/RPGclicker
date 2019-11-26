@@ -1,0 +1,42 @@
+Let's make a game!
+	name:RPG Clicker
+	by:Nozzles123
+	desc:An incremental rpg game.
+	created:26/11/2019
+	updated:26/11/2019
+	version:0.0.2
+
+Settings
+  background:https://raw-nozzite.github.io/RPGclicker/Images/Wood.jpg
+  building cost increase:115%
+  building cost refund:50%
+  
+Layout
+	use default
+
+Buttons
+	*trainButton
+		name:Train Yourself
+		desc:Click this to gain either attack points or defense points.
+		on click:anim icon wobble
+		on click:if (chance (50%)) yield 1 attack
+		on click:if (chance (50%)) yield 1 defense
+		class:bigButton hasFlares
+    icon:https://raw-nozzite.github.io/RPGclicker/Images/Training.jpg
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
+
+Resources
+    *attack|attack
+        name:Attack|Attack
+        desc:This is how many attack points you have.
+        class:noBackground
+        show earned
+	
+    *defense|defense
+        name:Defense|Defense
+        desc:This is how many defense point you have.
+        class:noBackground
+        hidden when 0
+	
