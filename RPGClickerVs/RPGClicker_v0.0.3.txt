@@ -58,3 +58,11 @@ Buildings
         on tick:yield 0.2 defense
         unlocked
 	
+    *SparPart|SparParts
+        name:Sparing Partner|Sparing Partners
+        desc:A sparring partner to train on.<//><b>Effect:</b><.>Produces 1 attack & defense every second.
+        cost:100 attack and 100 defense
+        on tick:yield 1 defense
+	on tick:yield 1 attack
+        unlocked
+	
