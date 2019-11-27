@@ -21,7 +21,7 @@ Buttons
 		on click:anim icon wobble
 		on click:if (chance (50%)) yield 1 attack
 		on click:if (chance (50%)) yield 1 defense
-		on click:if (chance (0.1%)) yield 1 gem
+		on click:if (chance (0.001%)) yield 1 gem
 		class:bigButton hasFlares
     		icon:https://raw-nozzite.github.io/RPGclicker/Images/NewSword.png
 		icon class:shadowed
@@ -104,6 +104,6 @@ Upgrades
         desc:A shiny and smooth gemstone.<//><b>Effect:</b><.>Double Profits
         cost:1 gem
         passive:multiply yield of attack by 2
-	passive:multiply yield of attack by 2
+	passive:multiply yield of defense by 2
         req:1 gem:earned
 
