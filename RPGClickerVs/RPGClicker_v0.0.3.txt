@@ -85,7 +85,7 @@ Upgrades
         passive:increase attack yield of trainButton by 1
 	passive:increase defense yield of trainButton by 1
 
-    *Sword
+    *sharperSword
         name:Sharper Sword
         desc:An even sharper blade to increase your click strength.<//><b>Effect:</b><.>+3 (attack/defense)/click
         cost:2000 attack and 2000 defense
