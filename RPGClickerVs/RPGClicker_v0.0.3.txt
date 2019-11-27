@@ -9,7 +9,7 @@ Let's make a game!
 Settings
   background:https://raw-nozzite.github.io/RPGclicker/Images/Wood.jpg
   building cost increase:115%
-  building cost refund:0.0000000000000000000000000000000000000000000000000000001%
+  building cost refund:0%
   
 Layout
 	use default
@@ -103,6 +103,6 @@ Upgrades
         name:Gemstone
         desc:A shiny and smooth gemstone.<//><b>Effect:</b><.>Double Profits
         cost:1 gem
-        passive:multiply yield of attack and defense by 2
+        passive:multiply yield of attack by 2  and multiply yield of defense by 2
         req:1 gem:earned
 
