@@ -9,7 +9,7 @@ Let's make a game!
 Settings
   background:https://raw-nozzite.github.io/RPGclicker/Images/Wood.jpg
   building cost increase:115%
-  building cost refund:1%
+  building cost refund:0.0000000000000000000000000000000000000000000000000000001%
   
 Layout
 	use default
