@@ -66,3 +66,12 @@ Buildings
 	on tick:yield 1 attack
         unlocked
 	
+Upgrades
+    *TEMPLATE
+        on click:anim glow
+   
+    *Sword
+        name:Sword
+        desc:A sharp blade to increase your click strength.<//><b>Effect:</b><.>+1 (attack/defense)/click
+        cost:350 attack and 350 defense
+        passive:increase attack and defense yield of trainButton by 1
