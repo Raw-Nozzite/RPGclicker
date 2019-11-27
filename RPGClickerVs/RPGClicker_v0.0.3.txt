@@ -44,10 +44,17 @@ Buildings
     *TEMPLATE
         on click:anim glow
        
-    *cage|cages
-        name:Rabbit cage|Rabbit cages
-        desc:A tiny little cage.<//><b>Effect:</b><.>Produces 1 rabbit every 10 seconds.
+    *Straw Dummy|Straw Dummies
+        name:Straw Dummy|Straw Dummies
+        desc:A straw target dummy.<//><b>Effect:</b><.>Produces 1 attack every 5 seconds.
         cost:15 attack
-        on tick:yield 0.1 attack
+        on tick:yield 0.2 attack
+        unlocked
+	
+    *Shield Dummy|Shield Dummies
+        name:Shield Dummy|Shield Dummies
+        desc:A straw target dummy.<//><b>Effect:</b><.>Produces 1 defense every 5 seconds.
+        cost:15 defense
+        on tick:yield 0.2 defense
         unlocked
 	
