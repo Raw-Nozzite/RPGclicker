@@ -101,8 +101,9 @@ Upgrades
 	
     *gemStone
         name:Gemstone
-        desc:A shiny and smooth gemstone.<//><b>Effect:</b><.>Double Profits
+        desc:A shiny and smooth gemstone.<//><b>Effect:</b><.>Double your click power.
         cost:1 gem
-        passive:multiply yield of attack by 2  and multiply yield of defense by 2
+        passive:multiply attack yield of bunnyButton by 2
+	passive:multiply defense yield of bunnyButton by 2
         req:1 gem:earned
 
