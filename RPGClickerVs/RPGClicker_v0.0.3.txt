@@ -9,7 +9,7 @@ Let's make a game!
 Settings
   background:https://raw-nozzite.github.io/RPGclicker/Images/Wood.jpg
   building cost increase:115%
-  building cost refund:50%
+  building cost refund:1%
   
 Layout
 	use default
@@ -21,6 +21,7 @@ Buttons
 		on click:anim icon wobble
 		on click:if (chance (50%)) yield 1 attack
 		on click:if (chance (50%)) yield 1 defense
+		on click:if (chance (0.1%)) yield 1 gem
 		class:bigButton hasFlares
     		icon:https://raw-nozzite.github.io/RPGclicker/Images/NewSword.png
 		icon class:shadowed
@@ -36,7 +37,13 @@ Resources
 	
     *defense|defense
         name:Defense|Defense
-        desc:This is how many defense point you have.
+        desc:This is how many defense points you have.
+        class:noBackground
+        show earned
+	
+    *gem|gems
+        name:Gem|Gems
+        desc:This is how many gems you have.
         class:noBackground
         hidden when 0
 	
@@ -91,4 +98,12 @@ Upgrades
         cost:2000 attack and 2000 defense
         passive:increase attack yield of trainButton by 3
 	passive:increase defense yield of trainButton by 3
+	
+    *gemStone
+        name:Gemstone
+        desc:A shiny and smooth gemstone.<//><b>Effect:</b><.>Double Profits
+        cost:1 gem
+        passive:multiply yield of attack by 2
+	passive:multiply yield of attack by 2
+        req:1 gem:earned
 
