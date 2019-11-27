@@ -103,7 +103,6 @@ Upgrades
         name:Gemstone
         desc:A shiny and smooth gemstone.<//><b>Effect:</b><.>Double Profits
         cost:1 gem
-        passive:multiply yield of attack by 2
-	passive:multiply yield of defense by 2
+        passive:multiply yield of attack and defense by 2
         req:1 gem:earned
 
