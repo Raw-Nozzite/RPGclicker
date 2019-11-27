@@ -48,13 +48,6 @@ Buildings
         name:Rabbit cage|Rabbit cages
         desc:A tiny little cage.<//><b>Effect:</b><.>Produces 1 rabbit every 10 seconds.
         cost:15 attack
-        on tick:yield 0.1 bunny
+        on tick:yield 0.1 attack
         unlocked
-   
-    *hutch|hutches
-        name:Rabbit hutch|Rabbit hutches
-        desc:A bit roomier than a cage, with enough space to hop around.<//><b>Effect:</b><.>Produces 1 rabbit every 2 seconds.
-        cost:100 attack
-        on tick:yield 0.5 bunnies
-        req:100 bunnies:earned
 	
