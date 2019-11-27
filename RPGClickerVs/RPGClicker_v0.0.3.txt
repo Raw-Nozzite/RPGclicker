@@ -44,14 +44,14 @@ Buildings
     *TEMPLATE
         on click:anim glow
        
-    *Straw Dummy|Straw Dummies
+    *StrawDummy|StrawDummies
         name:Straw Dummy|Straw Dummies
         desc:A straw target dummy.<//><b>Effect:</b><.>Produces 1 attack every 5 seconds.
         cost:15 attack
         on tick:yield 0.2 attack
         unlocked
 	
-    *Shield Dummy|Shield Dummies
+    *ShieldDummy|ShieldDummies
         name:Shield Dummy|Shield Dummies
         desc:A straw target dummy.<//><b>Effect:</b><.>Produces 1 defense every 5 seconds.
         cost:15 defense
