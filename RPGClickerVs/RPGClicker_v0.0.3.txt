@@ -65,6 +65,14 @@ Buildings
         on tick:yield 1 defense
 	on tick:yield 1 attack
         unlocked
+
+    *newBarrack|newBarrakcs
+        name:Barrack|Barracks
+        desc:A new training center to hone your skills.<//><b>Effect:</b><.>Produces 4 attack & defense every second.
+        cost:1000 attack and 1000 defense
+        on tick:yield 4 defense
+	on tick:yield 4 attack
+        unlocked
 	
 Upgrades
     *TEMPLATE
@@ -76,3 +84,11 @@ Upgrades
         cost:350 attack and 350 defense
         passive:increase attack yield of trainButton by 1
 	passive:increase defense yield of trainButton by 1
+
+    *Sword
+        name:Sharper Sword
+        desc:An even sharper blade to increase your click strength.<//><b>Effect:</b><.>+3 (attack/defense)/click
+        cost:2000 attack and 2000 defense
+        passive:increase attack yield of trainButton by 3
+	passive:increase defense yield of trainButton by 3
+
